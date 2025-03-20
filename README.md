@@ -1,27 +1,53 @@
+# Praanva - Anonymous Mental Health & Meditation App
 
+Praanva is an anonymous mental health app designed to help students face mental health challenges without fear of judgment or stigma.
 
-Hello guys, we are teaem code busters as first years from Kmit.
+## Problem We’re Solving
 
-## how the app works
-Moving to the working of the app, i have a main dart which obviously connects all the screens of the app together
+Many students struggle with mental health but avoid seeking help because they are afraid of being judged. Praanva solves this by providing a private and anonymous space where students can assess their stress levels, get help through proven exercises, and talk to therapists anonymously.
 
-SCREENS
----
-so we have 8 total screens, and first lets taslk about the splash screen as it is the first. We used an inbuilt icon in flutter for the app icon and added a nice animation to it by makng it expand and smooth go to the next page.
+## How the App Works
 
-Next is the login, and we add a field for the college the student goes to and also added normal gmail and password option, but it stated as the user can use any anonymous gmail that is not connect to them.
+The app starts with a stress assessment. Students answer a few simple questions based on scientific stress scales. After completing the test, the app will calculate the student’s stress level.
 
-#home screen
-next we have home screen witha  app drawer that has mental health hotlies and numbers
-it has the main stress assessment test button and also the chat room button 
-in the top right we have an option for the therapists to access their chat with the students
-#this is in the therapist_mode_screen
+Based on the results, the app provides different coping exercises. These exercises are chosen according to the student’s stress level. High-stress students are given deep breathing exercises or guided meditation. Students with moderate stress are recommended grounding techniques or diaphragmatic breathing. Those with low stress are provided positive affirmations and light breathing exercises. 
 
-so the chatroom button leads to the chat room with the therapist in home and the take assessment button takes them to the stress assessment 
+The exercises are made on Cognitive Behavioral Therapy (CBT) methods.
 
-# in stress_result_screen
-after the student finsidhes the test, he is shown his score and give particular exercises for his stress level
+Once the exercise is complete, students can enter an anonymous chatroom. In this chatroom, they can talk directly to therapists assigned by their school. The chat is fully anonymous and therapists are only shown as online when available.
 
-so he is provided breathing or a CBT exercises
-and next he is sent to 
-#exercise_screen and there is the specific exercise here for the student and there is a specific exercise for each stress level and incase of very high stress there is a hotline as well
+The app also has a small app bar in home screeen where students can access mental health hotline numbers in case of emergencies.
+
+## App Features
+- Login is anonymous, no need to share personal details
+- Stress assessment based on scientific scales
+- Exercises change based on your stress level
+- Chatroom to talk with school therapists anonymously
+- Separate mode for therapists to chat with students
+- Mental health hotline numbers in the app drawer
+- Breathing circle animation during exercises
+
+## Tech Stack
+
+The app is built using Flutter and Dart for cross-platform development, allowing it to run on both Android and iOS device. We use local state management and a local database to store data and manage app flow. For future scaling, we plan to integrate Firebase for authentication, database storage, and push notifications.
+
+The UI/UX includes Lottie animations and timer widgets for smooth user interaction, especially during exercises. The app also uses an AI-based algorithm powered by OpenAI API to detect patterns of stress and suggest coping mechanisms.
+
+## Scaling and Future Plans
+
+We aim to scale Praanva to more colleges and schools, allowing more students to access anonymous mental health support. Future versions will fully integrate Firebase for real-time chat, notifications, and better analytics.
+
+## Scientific Stress Assessment Scales Used
+
+We based our stress assessment on the following scientifically validated scales:
+
+- Perceived Stress Scale (PSS): https://www.apa.org
+- DASS-21: https://www2.psy.unsw.edu.au/dass/
+
+## Team - Code Busters from KMIT (1st Year Students)
+Ganesh
+Koushik  
+Abhishek  
+Abhinav  
+
+Thank you for giving us this oppurtunity!
