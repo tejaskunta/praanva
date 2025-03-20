@@ -45,9 +45,9 @@ We based our stress assessment on the following scientifically validated scales:
 - DASS-21: https://www2.psy.unsw.edu.au/dass/
 
 ## Team - Code Busters from KMIT (1st Year Students)
-Ganesh
-Koushik  
-Abhishek  
-Abhinav  
+Ganesh ,
+Koushik ,
+Abhishek ,
+Abhinav ,
 
 Thank you for giving us this oppurtunity!
